@@ -1,4 +1,4 @@
-# ProxemoTab
+# ProxemoTab (Proxemo App for Android)
 
 The Proxemo app for Tizen OS (https://github.com/bja-engineering/Proxemo) was conceptualised by Stephan Huber and implemented by Jan Erik Fischer.
 
