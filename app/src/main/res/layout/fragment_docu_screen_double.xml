@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/doubleFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".docuScreen">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--  um EMOTIONEN zu ändern:
+    1. png Datei in res/drawable ablegen
+    2. diese hier beim entsprechenden Button als Background setzen
+    3. -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="40dp">
+        <TextView
+            android:id="@+id/leftUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/user_1"
+            android:gravity="bottom"
+            android:textSize="@android:dimen/app_icon_size"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <FrameLayout
+            android:id="@+id/left_anchor"
+            android:layout_margin="10dp"
+            android:layout_height="60dp"
+            android:layout_width="40dp">
+        <ImageButton
+            android:id="@+id/left_first"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/anger"
+            android:contentDescription="@string/btn01"
+            android:hapticFeedbackEnabled="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn01" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_alignLeft="@+id/left_anchor"
+            android:layout_alignTop="@+id/left_anchor"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="22dp">
+        <ImageButton
+            android:id="@+id/left_second"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/boredom"
+            android:contentDescription="@string/btn02"
+            android:hapticFeedbackEnabled="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn02" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_alignLeft="@+id/left_anchor"
+            android:layout_alignTop="@+id/left_anchor"
+            android:layout_marginLeft="133dp"
+            android:layout_marginTop="67dp">
+        <ImageButton
+            android:id="@+id/left_third"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/stressed"
+            android:contentDescription="@string/btn03"
+            android:hapticFeedbackEnabled="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn03" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_alignLeft="@+id/left_anchor"
+            android:layout_alignTop="@+id/left_anchor"
+            android:layout_marginLeft="178dp"
+            android:layout_marginTop="133dp">
+        <ImageButton
+            android:id="@+id/left_fourth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/surprised"
+            android:contentDescription="@string/btn04"
+            android:hapticFeedbackEnabled="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn04" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_alignLeft="@+id/left_anchor"
+            android:layout_alignTop="@+id/left_anchor"
+            android:layout_marginLeft="199dp"
+            android:layout_marginTop="210dp">
+        <ImageButton
+            android:id="@+id/left_fifth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/proud"
+            android:contentDescription="@string/btn5"
+            android:hapticFeedbackEnabled="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn5" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="40dp">
+        <TextView
+            android:id="@+id/rightUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@android:dimen/app_icon_size"
+            android:text="@string/user_2"
+            android:gravity="bottom|right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <FrameLayout
+            android:id="@+id/right_anchor"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            >
+        <ImageButton
+            android:id="@+id/right_first"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/anger"
+            android:hapticFeedbackEnabled="true"
+            android:contentDescription="@string/btn01"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn01" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_alignRight="@+id/right_anchor"
+            android:layout_alignTop="@+id/right_anchor"
+            android:layout_marginRight="77dp"
+            android:layout_marginTop="22dp"
+            android:layout_alignParentRight="true">
+        <ImageButton
+            android:id="@+id/right_second"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/boredom"
+            android:contentDescription="@string/btn02"
+            android:hapticFeedbackEnabled="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn02" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:contentDescription="@string/btn03"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_alignRight="@+id/right_anchor"
+            android:layout_alignTop="@+id/right_anchor"
+            android:layout_marginRight="143dp"
+            android:layout_marginTop="67dp"
+            android:layout_alignParentRight="true">
+        <ImageButton
+            android:id="@+id/right_third"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/stressed"
+            android:contentDescription="@string/btn03"
+            android:hapticFeedbackEnabled="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn03" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_alignRight="@+id/right_anchor"
+            android:layout_alignTop="@+id/right_anchor"
+            android:layout_marginRight="188dp"
+            android:layout_marginTop="133dp"
+            android:layout_alignParentRight="true">
+        <ImageButton
+            android:id="@+id/right_fourth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/surprised"
+            android:contentDescription="@string/btn04"
+            android:hapticFeedbackEnabled="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn04" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_alignRight="@+id/right_anchor"
+            android:layout_alignTop="@+id/right_anchor"
+            android:layout_marginRight="209dp"
+            android:layout_marginTop="210dp"
+            android:layout_alignParentRight="true">
+        <ImageButton
+            android:id="@+id/right_fifth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/proud"
+            android:contentDescription="@string/btn5"
+            android:hapticFeedbackEnabled="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="false"
+                android:text="@string/btn5" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

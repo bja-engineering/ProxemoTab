@@ -1,0 +1,20 @@
+<paths>
+    <external-path
+        name="data"
+        path="/"/>
+</paths>
+
+
+
+
+<!-- DEPENDING ON PROVIDER PATH IN JAVA, FOLLOWING DECLARATIONS ARE NEEDED
+Ref: https://developer.android.com/reference/androidx/core/content/FileProvider
+
+<files-path/> -> Context.getFilesDir()
+<cache-path/> -> Context.getCacheDir()
+<external-path/> -> Environment.getExternalStorageDirectory()
+<external-files-path/> -> Context.getExternalFilesDir(String)
+<external-cache-path/> -> Context.getExternalCacheDir()
+<external-media-path/> -> Context.getExternalMediaDirs()
+
+-->

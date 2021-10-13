@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ProxemoTab</string>
+    <string name="tab_text_1">2 users</string>
+    <string name="tab_text_2">Settings</string>
+    <string name="tab_text_3">1 user</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="settings_instru">Click on emojis for full definition of category. </string>
+    <string name="user_1">User 1</string>
+    <string name="user_2">User 2</string>
+
+
+    <string name="btn1">pleasure</string>
+    <string name="btn2">interest/fascination</string>
+    <string name="btn3">joy</string>
+    <string name="btn4">fear</string>
+    <string name="btn5">pride</string>
+    <string name="btn01">anger</string>
+    <string name="btn02">boredom</string>
+    <string name="btn03">stress</string>
+    <string name="btn04">surprise</string>
+
+    <string name="about">Concept and Adaption: Stephan Huber; Initial Android Implementation: Alexander Bejan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

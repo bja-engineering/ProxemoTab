@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.PlaceholderFragment">
+<!--
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="135dp">
+
+        <ImageButton
+            android:id="@+id/left_first"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/pleasure"
+            android:contentDescription="interest/pleasure"
+            android:hapticFeedbackEnabled="true" />
+
+
+        <ImageButton
+            android:id="@+id/left_second"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/left_first"
+            android:layout_alignTop="@+id/left_first"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fascination"
+            android:contentDescription="interest/fascination"
+            android:hapticFeedbackEnabled="true" />
+
+        <ImageButton
+            android:id="@+id/left_third"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/left_second"
+            android:layout_alignTop="@+id/left_second"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/joy"
+            android:contentDescription="interest/joy"
+            android:hapticFeedbackEnabled="true" />
+
+        <ImageButton
+            android:id="@+id/left_fourth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/left_third"
+            android:layout_alignTop="@+id/left_third"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/fear"
+            android:contentDescription="interest/fear"
+            android:hapticFeedbackEnabled="true" />
+
+        <ImageButton
+            android:id="@+id/left_fifth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/left_fourth"
+            android:layout_alignTop="@+id/left_fourth"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/proud"
+            android:contentDescription="interest/proud"
+            android:hapticFeedbackEnabled="true" />
+
+    </RelativeLayout>
+-->
+</android.support.constraint.ConstraintLayout>

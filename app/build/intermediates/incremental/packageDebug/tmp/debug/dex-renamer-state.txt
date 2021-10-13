@@ -1,0 +1,4 @@
+#Thu Mar 11 13:42:00 CET 2021
+base.0=C\:\\Users\\sth78ys\\workspace\\ProxemoTab_united\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

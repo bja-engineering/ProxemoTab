@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".settingsTab">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp">
+                <ImageButton
+                    android:id="@+id/setting_first"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/anger"
+                    android:contentDescription="@string/btn01"
+                    >
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/btn01" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp">
+            <ImageButton
+                android:id="@+id/setting_second"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/boredom"
+                android:contentDescription="@string/btn02"
+                android:hapticFeedbackEnabled="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/btn02" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp">
+            <ImageButton
+                android:id="@+id/setting_third"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/stressed"
+                android:contentDescription="@string/btn03"
+                android:hapticFeedbackEnabled="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/btn03" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp">
+            <ImageButton
+                android:id="@+id/setting_fourth"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/surprised"
+                android:contentDescription="@string/btn04"
+                android:hapticFeedbackEnabled="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/btn04" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp">
+            <ImageButton
+                android:id="@+id/setting_fifth"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/proud"
+                android:contentDescription="@string/btn5"
+                android:hapticFeedbackEnabled="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/btn5" >
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--        <android.support.v7.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="right|bottom"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editUser1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="140dp"
+                    android:layout_margin="10dp"
+                    android:text="@string/user_1" />
+                <EditText
+                    android:id="@+id/editUser2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="140dp"
+                    android:layout_margin="10dp"
+                    android:text="@string/user_2"/>
+                <Button
+                    android:id="@+id/updateUser"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/holo_green_light"
+                    android:text="update"
+                                        />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:textColor="@color/cardview_dark_background"
+                android:text="@string/settings_instru"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            >
+
+        <Button
+            android:id="@+id/deleteLogButton"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="5dp"
+            android:text="Delete log"/>
+
+
+        <Button
+            android:id="@+id/aboutButton"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="bottom|right"
+            android:background="@color/cardview_shadow_start_color"
+            android:text="About..." />
+
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_primary"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="bottom|right"
+                android:textColor="@color/cardview_light_background"
+                android:text="Send Log" />
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

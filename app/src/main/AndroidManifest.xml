@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proxemotab">
+
+    <!--<uses-permission android:name="android.permission.WAKE_LOCK" />-->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fascination"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+    <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+       <!-- this part is important for sharing the csv file to BT  -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.proxemotab.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/provider_paths" />
+        </provider>
+<!--
+        <intent-filter>
+            <action android:name="android.intent.action.SEND" />
+            <category android:name="android.intent.category.DEFAULT"/>
+            <data android:mimeType="text/csv"/>
+        </intent-filter> -->
+    </application>
+
+
+</manifest>
